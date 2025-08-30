@@ -5,7 +5,7 @@ type Msg = { role: "user" | "assistant"; content: string };
 
 // User data for personalized responses
 const userData = {
-  name: "",
+  name: "นกคุงหลีสกิบิดี้ทุงๆสฮัวล่ามหาเทพบือๆปาตาปิมสไลท์หนอนออนแอร์เอเชีย",
   fullName: "",
   role: "",
   skills: [

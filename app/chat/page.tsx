@@ -6,7 +6,7 @@ type Msg = { role: "user" | "assistant"; content: string };
 
 export default function ChatPage() {
   const [messages, setMessages] = useState<Msg[]>([
-    { role: "assistant", content: "สวัสดีค่ะ 👋 หากต้องการทราบข้อมูลของ ... สอบถามได้เลยค่ะ" },
+    { role: "assistant", content: "มีปัญหาไรเจ๊คว่ามา" },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
